@@ -14,7 +14,7 @@ spec:
         app: "frontend"
     spec:
       containers:
-      - image: 279604517008.dkr.ecr.ap-south-1.amazonaws.com/soumi-cicd:latest
+      - image: 279604517008.dkr.ecr.ap-south-1.amazonaws.com/soumi-cicd:2
         imagePullPolicy: Always
         name: "frontend"
         ports:
