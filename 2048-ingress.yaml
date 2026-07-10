@@ -12,7 +12,7 @@ metadata:
     app: 2048-ingress
 spec:
   rules:
-    - host: argocd.soumitripathy.site
+    - host: dev.soumitripathy.site
       http:
           paths:
             - path: /
